@@ -1,6 +1,6 @@
 cask "inkies" do
-  version "1.0.2"
-  sha256 "179c349faa5ff2bc49fad28ed2a6dc9268206284e5a5e3d099a5243554348289"
+  version "1.0.3"
+  sha256 "aa775b700c89a571c59617697b7d6ae69082e5de4fa633ed633876f4d0d707ec"
 
   url "https://github.com/SteveShi/inkies/releases/download/v#{version}/Inkies-v#{version}.dmg"
   name "Inkies"
