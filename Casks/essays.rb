@@ -1,6 +1,6 @@
 cask "essays" do
-  version "2.7.2"
-  sha256 "7b72507c3e9f2828593c6cdff7884e32d4be7fcd542914caee0f19e48c326861"
+  version "2.8.0"
+  sha256 "52cad9815df16a9ba2f302bef9ff168d278c107dbf4ce19fbc89025640b3a412"
 
   url "https://github.com/SteveShi/Essays/releases/download/v#{version}/Essays-AppleSilicon.dmg"
   name "Essays"
