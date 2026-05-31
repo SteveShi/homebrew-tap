@@ -1,6 +1,6 @@
 cask "agave" do
-  version "0.3"
-  sha256 "23986ef6fcfda3ba80c28e99a6d2c8a1f93a41942fbaf9459c47638a3ada64d1"
+  version "0.3.1"
+  sha256 "bfdbdc73fb729c5ebce5295f390cb1beae8bf789abd6c52e9b0e5bcf42c78759"
 
   url "https://github.com/SteveShi/Agave/releases/download/v#{version}/Agave-#{version}-Universal.dmg"
   name "Agave"
