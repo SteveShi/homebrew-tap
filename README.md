@@ -27,6 +27,9 @@ brew install --cask essays
 
 # Install MacSSH
 brew install --cask macssh
+
+# Install Agave
+brew install --cask agave
 ```
 
 ## Software List
@@ -38,6 +41,7 @@ brew install --cask macssh
 | **Inkies** | An editor for ink via SwiftUI: inkle's narrative scripting language |
 | **Essays** | Native macOS client for the Memos |
 | **MacSSH** | A modern, high-performance SSH & SFTP client for macOS |
+| **Agave** | Modern native container client for macOS (based on Apple's Virtualization.framework) |
 
 ## Auto-Update
 
