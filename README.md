@@ -47,11 +47,13 @@ brew install --cask agave
 
 | Command | Description |
 | :--- | :--- |
-| **`brew lser`** | Scan for leftover files from uninstalled Casks, using Homebrew Cask's `zap` rules. |
+| **[`brew lser`](docs/lser.md)** | Scan for leftover files from uninstalled Casks, using Homebrew Cask's `zap` rules. |
 
 ```bash
 brew lser
 ```
+
+See **[docs/lser.md](docs/lser.md)** for the full guide — usage, output explained, and Full Disk Access setup.
 
 ## Auto-Update
 
