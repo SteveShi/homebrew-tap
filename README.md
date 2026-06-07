@@ -13,6 +13,9 @@ brew tap SteveShi/tap
 ### 2. Install Applications
 
 ```bash
+# Install AllCleaner
+brew install --cask allcleaner
+
 # Install MDWriter
 brew install --cask mdwriter
 
@@ -36,25 +39,10 @@ brew install --cask agave
 
 | Application | Description |
 | :--- | :--- |
-| **MDWriter** | A powerful native Markdown editor for macOS. |
+| **AllCleaner** | Find and remove the files macOS apps leave behind after you uninstall them |
+| **MDWriter** | A powerful native Markdown editor for macOS |
 | **Maltex** | Aria2-based Downloader for macOS |
-| **Inkies** | An editor for ink via SwiftUI: inkle's narrative scripting language |
-| **Essays** | Native macOS client for the Memos |
-| **MacSSH** | A modern, high-performance SSH & SFTP client for macOS |
-| **Agave** | Modern native container client for macOS (based on Apple's Virtualization.framework) |
-
-## Commands
-
-| Command | Description |
-| :--- | :--- |
-| **[`brew lser`](docs/lser.md)** | Scan for leftover files from uninstalled Casks, using Homebrew Cask's `zap` rules. |
-
-```bash
-brew lser
-```
-
-See **[docs/lser.md](docs/lser.md)** for the full guide — usage, output explained, and Full Disk Access setup.
-
-## Auto-Update
-
-These Casks are automatically updated via GitHub Actions whenever a new release is tagged in their respective repositories.
+| **Inkies** | An editor for ink scripts on macOS |
+| **Essays** | A writing app for macOS |
+| **MacSSH** | SSH client for macOS |
+| **Agave** | Modern native container client for macOS |
