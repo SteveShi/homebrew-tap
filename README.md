@@ -43,6 +43,16 @@ brew install --cask agave
 | **MacSSH** | A modern, high-performance SSH & SFTP client for macOS |
 | **Agave** | Modern native container client for macOS (based on Apple's Virtualization.framework) |
 
+## Commands
+
+| Command | Description |
+| :--- | :--- |
+| **`brew lser`** | Scan for leftover files from uninstalled Casks, using Homebrew Cask's `zap` rules. |
+
+```bash
+brew lser
+```
+
 ## Auto-Update
 
 These Casks are automatically updated via GitHub Actions whenever a new release is tagged in their respective repositories.
