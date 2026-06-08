@@ -1,1 +1,18 @@
-Y2FzayAiYWxsY2xlYW5lciIgZG8KICB2ZXJzaW9uICIxLjAuMCIKICBzaGEyNTYgIjdlOWQ1MTg0ZjBjODUxYjMxOGFkYWM3YmUzZjk0NTBiNTk1YzMwOWIwZmQ0NThkZTNmZjYzMGY5YTEzZTMwMGUiCgogIHVybCAiaHR0cHM6Ly9naXRodWIuY29tL1N0ZXZlU2hpL0FsbENsZWFuZXIvcmVsZWFzZXMvZG93bmxvYWQvdiN7dmVyc2lvbn0vQWxsQ2xlYW5lci0je3ZlcnNpb259LVVuaXZlcnNhbC5kbWciCiAgbmFtZSAiQWxsQ2xlYW5lciIKICBkZXNjICJGaW5kIGFuZCByZW1vdmUgdGhlIGZpbGVzIG1hY09TIGFwcHMgbGVhdmUgYmVoaW5kIGFmdGVyIHlvdSB1bmluc3RhbGwgdGhlbSIKICBob21lcGFnZSAiaHR0cHM6Ly9naXRodWIuY29tL1N0ZXZlU2hpL0FsbENsZWFuZXIiCgogIGFwcCAiQWxsQ2xlYW5lci5hcHAiCgogIHphcCB0cmFzaDogWwogICAgIn4vTGlicmFyeS9BcHBsaWNhdGlvbiBTdXBwb3J0L2NvbS5zdGV2ZXNoaS5hbGxjbGVhbmVyIiwKICAgICJ+L0xpYnJhcnkvQ2FjaGVzL2NvbS5zdGV2ZXNoaS5hbGxjbGVhbmVyIiwKICAgICJ+L0xpYnJhcnkvUHJlZmVyZW5jZXMvY29tLnN0ZXZlc2hpLmFsbGNsZWFuZXIucGxpc3QiLAogICAgIn4vTGlicmFyeS9TYXZlZCBBcHBsaWNhdGlvbiBTdGF0ZS9jb20uc3RldmVzaGkuYWxsY2xlYW5lci5zYXZlZFN0YXRlIiwKICBdCmVuZAo=
+cask "allcleaner" do
+  version "1.0.4"
+  sha256 "7bda2345f436e41201192bf57deef4eeda2513da0333d8ef70cf215c67d48837"
+
+  url "https://github.com/SteveShi/AllCleaner/releases/download/v#{version}/AllCleaner-#{version}-Universal.dmg"
+  name "AllCleaner"
+  desc "Find and remove the files macOS apps leave behind after you uninstall them"
+  homepage "https://github.com/SteveShi/AllCleaner"
+
+  app "AllCleaner.app"
+
+  zap trash: [
+    "~/Library/Application Support/com.steveshi.allcleaner",
+    "~/Library/Caches/com.steveshi.allcleaner",
+    "~/Library/Preferences/com.steveshi.allcleaner.plist",
+    "~/Library/Saved Application State/com.steveshi.allcleaner.savedState",
+  ]
+end
