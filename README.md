@@ -33,6 +33,9 @@ brew install --cask macssh
 
 # Install Agave
 brew install --cask agave
+
+# Install PlistEditor
+brew install --cask plisteditor
 ```
 
 ## Software List
@@ -46,3 +49,4 @@ brew install --cask agave
 | **Essays** | A writing app for macOS |
 | **MacSSH** | SSH client for macOS |
 | **Agave** | Modern native container client for macOS |
+| **PlistEditor** | Property list editor with a synced outline and source view |
