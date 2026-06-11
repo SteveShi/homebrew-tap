@@ -1,6 +1,6 @@
 cask "whisky" do
-  version "3.0.1"
-  sha256 "30ab321f6e7ff1517ba9a17915d7bbdff546d1de4a6b6ef773a52a7fc03db91e"
+  version "3.0.2"
+  sha256 "a801dea35cba1aad2e13bbba650b7c0a938577131127e3174a33820e8c3ca9f6"
 
   url "https://github.com/SteveShi/Whisky/releases/download/v#{version}/Whisky-#{version}-AppleSilicon.dmg"
   name "Whisky"
