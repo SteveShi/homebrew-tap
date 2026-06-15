@@ -1,6 +1,6 @@
 cask "allcleaner" do
   version "1.5.0"
-  sha256 "4ff3346fbe74fed13d255145d0d34b50afae8e5209abfcad6c58a181103c1aee"
+  sha256 "c34470b721d093f45aaa5af98ce46fad1b41920d9e2fb81371086f7ed5d08ae2"
 
   url "https://github.com/SteveShi/AllCleaner/releases/download/v#{version}/AllCleaner-#{version}-Universal.dmg"
   name "AllCleaner"
