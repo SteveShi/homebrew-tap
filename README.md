@@ -13,9 +13,6 @@ brew tap SteveShi/tap
 ### 2. Install Applications
 
 ```bash
-# Install AllCleaner
-brew install --cask allcleaner
-
 # Install MDWriter
 brew install --cask mdwriter
 
