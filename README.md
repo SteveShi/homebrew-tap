@@ -31,9 +31,6 @@ brew install --cask essays
 # Install MacSSH
 brew install --cask macssh
 
-# Install Agave
-brew install --cask agave
-
 # Install PlistEditor
 brew install --cask plisteditor
 ```
@@ -48,5 +45,20 @@ brew install --cask plisteditor
 | **Inkies** | An editor for ink scripts on macOS |
 | **Essays** | A writing app for macOS |
 | **MacSSH** | SSH client for macOS |
-| **Agave** | Modern native container client for macOS |
 | **PlistEditor** | Property list editor with a synced outline and source view |
+
+## Commands
+
+| Command | Description |
+| :--- | :--- |
+| **[`brew lser`](docs/lser.md)** | Scan for leftover files from uninstalled Casks, using Homebrew Cask's `zap` rules. |
+
+```bash
+brew lser
+```
+
+See **[docs/lser.md](docs/lser.md)** for the full guide — usage, output explained, and Full Disk Access setup.
+
+## Auto-Update
+
+These Casks are automatically updated via GitHub Actions whenever a new release is tagged in their respective repositories.
