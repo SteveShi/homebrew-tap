@@ -30,6 +30,9 @@ brew install --cask macssh
 
 # Install PlistEditor
 brew install --cask plisteditor
+
+# Install KeyMemo
+brew install --cask keymemo
 ```
 
 ## Software List
@@ -43,6 +46,7 @@ brew install --cask plisteditor
 | **Essays** | A writing app for macOS |
 | **MacSSH** | SSH client for macOS |
 | **PlistEditor** | Property list editor with a synced outline and source view |
+| **KeyMemo** | Local software license and subscription manager |
 
 ## Commands
 
