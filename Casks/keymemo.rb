@@ -1,6 +1,6 @@
 cask "keymemo" do
   version "1.2.0"
-  sha256 "3a1ed5edd3570509f4cfb11de691b692d518f1aedb2912737f1807a391445e25"
+  sha256 "12e39d633a4ec932038af1fcbf6c7ed9131c655b1761ad82b368bc63733f593d"
 
   url "https://github.com/SteveShi/KeyMemo/releases/download/v#{version}/KeyMemo-#{version}-Universal.dmg"
   name "KeyMemo"
