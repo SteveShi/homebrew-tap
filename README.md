@@ -33,6 +33,9 @@ brew install --cask plisteditor
 
 # Install KeyMemo
 brew install --cask keymemo
+
+# Install Launchdmanager
+brew install --cask launchdmanager
 ```
 
 ## Software List
@@ -47,6 +50,7 @@ brew install --cask keymemo
 | **MacSSH** | SSH client for macOS |
 | **PlistEditor** | Property list editor with a synced outline and source view |
 | **KeyMemo** | Local software license and subscription manager |
+| **Launchdmanager** | Native, modern, and powerful launchd service manager for macOS |
 
 ## Commands
 
