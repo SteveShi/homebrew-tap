@@ -1,8 +1,8 @@
 cask "launchdmanager" do
   version "0.0.2"
-  sha256 :no_check
+  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
-  url "https://github.com/SteveShi/Launchdmanager/releases/download/v#{version}/Launchdmanager-#{version}.zip"
+  url "https://github.com/SteveShi/Launchdmanager/releases/download/v#{version}/Launchdmanager-#{version}-Universal.dmg"
   name "Launchdmanager"
   desc "Native, modern, and powerful launchd service manager for macOS"
   homepage "https://github.com/SteveShi/Launchdmanager"
