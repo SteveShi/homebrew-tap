@@ -1,6 +1,6 @@
 cask "launchdmanager" do
-  version "0.0.2"
-  sha256 "c5596007b9a7cb9df90e1f6411bb7be5a26bfa130ce2e6b49f03dc3e4fb80e67"
+  version "0.0.3"
+  sha256 "4595f7ce52fc701d6114ea65f3d25a0548a5c041817341ad506313056fb9f934"
 
   url "https://github.com/SteveShi/Launchdmanager/releases/download/v#{version}/Launchdmanager-#{version}-Universal.dmg"
   name "Launchdmanager"
