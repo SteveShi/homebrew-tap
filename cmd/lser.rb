@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 require "abstract_command"
-require "cask/caskroom"
+require "cask"
 
 module Homebrew
   module Cmd
