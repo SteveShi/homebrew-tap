@@ -1,6 +1,6 @@
 cask "macssh" do
   version "2.0.3"
-  sha256 "ed21b458d477a0b46d4e9a6fc4d15ecd1d8b6b23f8ed593a7385bb914a784341"
+  sha256 "10e2809d8e1b730791fac62984ee1f6238a9a9ae958d154c2839ad86d96f6627"
 
   url "https://github.com/SteveShi/MacSSH/releases/download/v#{version}/MacSSH-#{version}-arm64.dmg"
   name "MacSSH"
