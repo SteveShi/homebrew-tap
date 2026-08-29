@@ -1,6 +1,6 @@
 cask "maltex" do
-  version "1.1.19"
-  sha256 "8b98230c767e3d9761637b25179b6b4837308f4804f886057ae84f964170a475"
+  version "1.1.20"
+  sha256 "062ed57d71922e09b8f17a6c92b273b746f0e55ba7b9436137c879f0aef1d20e"
 
   url "https://github.com/SteveShi/Maltex/releases/download/v#{version}/Maltex-#{version}-universal.dmg"
   name "Maltex"
