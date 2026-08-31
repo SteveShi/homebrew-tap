@@ -1,3 +1,7 @@
+# homebrew-tap - Agent Guidelines & Instructions
+
+This file provides operational guidance to AI coding agents (Antigravity, Cursor, Codex, OpenCode, Pi, etc.) working in this repository.
+
 <!-- BEGIN brain.md -->
 ## Project Brain
 
