@@ -1,6 +1,6 @@
 cask "essays" do
-  version "2.9.1"
-  sha256 "216ec0c30a7952fdb0154b607df44ad3b7fc3093524210264ef05f2e5d927197"
+  version "2.9.2"
+  sha256 "70098fa4cbdc8866914cdab2e05a4793c8b6d07d79ecde6bf2272f07eb7cd064"
 
   url "https://github.com/SteveShi/Essays/releases/download/v#{version}/Essays-#{version}-universal.dmg"
   name "Essays"
