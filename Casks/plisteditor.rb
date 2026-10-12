@@ -1,6 +1,6 @@
 cask "plisteditor" do
   version "1.1.6"
-  sha256 "8464afbe24e17d65b8517dbf74ea9db42c2e97caa709f2e8f3abdae0262b7d6a" # TODO: update with the v#{version} release DMG checksum
+  sha256 "f8fcbce393f095e7d37953bec5f8cc9054d2e350e375fe93ad4612f2b99a2b14" # TODO: update with the v#{version} release DMG checksum
 
   url "https://github.com/SteveShi/PlistEditor/releases/download/v#{version}/PlistEditor-#{version}-universal.dmg"
   name "PlistEditor"
