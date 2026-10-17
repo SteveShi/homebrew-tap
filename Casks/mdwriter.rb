@@ -1,6 +1,6 @@
 cask "mdwriter" do
   version "4.0.0"
-  sha256 "f22dd64b3088300481a39036a9e44f3d3f6576a291bc780f9188b95a95e7a9b7"
+  sha256 "d03b417ab64c042dae08470df04c04c547399c2ee242f0534464ebbcb6465ff1"
 
   url "https://github.com/SteveShi/MDWriter/releases/download/v#{version}/MDWriter-#{version}-universal.dmg"
   name "MDWriter"
